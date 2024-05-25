@@ -23,15 +23,20 @@ _G["HoHo Hub Auto Bounty V3"] = {
     },
     ["Abilities"] = {
         ["Auto Click"] = true,
-        ["Sword"] = {
+        ["Melee"] = {
             Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            C = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+        },
+        ["Sword"] = {
+            Z = {Enabled = true, Hold = 2, WaitNextSkill = 0.6},
             X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
         },
         ["Fruit"] = {
-            V = {Enabled = true, Hold = 3, WaitNextSkill = 0.6},
+            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
             X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
             C = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
-            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            V = {Enabled = true, Hold = 3, WaitNextSkill = 0.6},
         },
     },
 }
