@@ -4,7 +4,7 @@ _G["HoHo Hub Auto Bounty V3"] = {
     ["Farm Method"] = "Normal", -- Normal or Gun
     ["Select Team"] = "Pirate", -- Pirate/Marine
     ["Discord Webhook"] = "https://discord.com/api/webhooks/1197871927642042469/Zijk5BjqSt-6pvlXm25GMU8hYX_eNu06cH_xpFke5a5CffSGciy1GjeEZi2GeraJWIo4",
-    ["Bypass Teleport"] = true,
+    ["Bypass Teleport"] = false,
     ["Max Level Distance"] = 612, -- 612 is took from wiki but u can change it
     ["Don't attack friends"] = true,
     ["Don't attack player have cup"] = false,
@@ -34,8 +34,8 @@ _G["HoHo Hub Auto Bounty V3"] = {
         },
         ["Fruit"] = {
             Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
-            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 1},
-            C = {Enabled = true, Hold = 0.05, WaitNextSkill = 2},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            C = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
             V = {Enabled = true, Hold = 3, WaitNextSkill = 0.6},
         },
     },
