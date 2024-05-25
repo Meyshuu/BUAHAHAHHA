@@ -22,7 +22,7 @@ _G["HoHo Hub Auto Bounty V3"] = {
         ["Max Time Target Player"] = 180,
     },
     ["Abilities"] = {
-        ["Auto Click"] = true,
+        ["Auto Click"] = false,
         ["Melee"] = {
             Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
             X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
@@ -36,7 +36,7 @@ _G["HoHo Hub Auto Bounty V3"] = {
             Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
             X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
             C = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
-            V = {Enabled = true, Hold = 3, WaitNextSkill = 0.6},
+            V = {Enabled = true, Hold = 1, WaitNextSkill = 0.6},
         },
     },
 }
