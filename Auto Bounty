@@ -17,17 +17,12 @@ _G["HoHo Hub Auto Bounty V3"] = {
         ["Invisible From Ken"] = true,
         ["No Stun"] = true,
     },
-    ["SafeZone"] = {Enabled = true, ["Health Left (%)"] = 40, ["Wait Until Heal (%)"] = 90},
+    ["SafeZone"] = {Enabled = true, ["Health Left (%)"] = 40, ["Wait Until Heal (%)"] = 80},
     ["Time Control"] = {
-        ["Max Time Target Player"] = 120,
+        ["Max Time Target Player"] = 180,
     },
     ["Abilities"] = {
         ["Auto Click"] = true,
-        ["Melee"] = {
-            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
-            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
-            C = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
-        },
         ["Sword"] = {
             Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
             X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
